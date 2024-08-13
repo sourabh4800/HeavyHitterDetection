@@ -9,7 +9,7 @@ const bit<8>  TYPE_TCP  = 6;
 
 #define BLOOM_FILTER_ENTRIES 4096
 #define BLOOM_FILTER_BIT_WIDTH 32
-#define PACKET_THRESHOLD 1000
+#define PACKET_THRESHOLD 100000000000
 
 /*************************************************************************
 *********************** H E A D E R S  ***********************************
