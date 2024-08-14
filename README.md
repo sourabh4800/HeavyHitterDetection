@@ -35,5 +35,5 @@ python send.py 10.0.2.2 "number_of_packet"
 
 
 ## Output
-Only the first 1000 will be received at the receiver's end
+Only the first 1000 packets will be received at the receiver's end (h2 side)
 
