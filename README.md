@@ -26,9 +26,14 @@ mx h2
 python receive.py
 ```
 
-Send any number of packets from `h1` to `h2`. Only the first 1000 will be received.
+Send any number of packets from `h1` to `h2`. 
 
 ```bash
 mx h1
 python send.py 10.0.2.2 "number_of_packet"
 ```
+
+
+## Output
+Only the first 1000 will be received at the receiver's end
+
